@@ -71,7 +71,7 @@ nav ul li a {
 nav ul li a {
     color: white;
     text-decoration: underline;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; /* Länge des Überganges zwischen dem default Aussehen des Objekts und dem anderen (Hier flex if cursor hovers) */
 }
 
 nav ul li a:hover {
