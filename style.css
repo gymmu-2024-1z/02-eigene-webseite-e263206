@@ -7,6 +7,7 @@
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
     margin: 0;
+    margin-top: 100px;
     padding: 0;
 }
 
