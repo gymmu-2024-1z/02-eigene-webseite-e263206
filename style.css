@@ -64,3 +64,11 @@ nav ul li a {
 nav ul li a:hover {
     letter-spacing: 0.5pt;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
