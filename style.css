@@ -47,7 +47,7 @@ nav {
     top: 0;
     left: 0;
     margin: 0; /* Ein margin kreiert Abstände ohne Grenzen um ein Objekt. Der margin kann auf jeder Seite unabhängig spezifiziert werden. */
-    padding: 0; /* Padding kreiert einen gewissen Abstand um ein Objekt. Bei dieser Nav-Leiste ist es auf 0. */
+    padding: 0; /* Padding kreiert einen gewissen Abstand um ein Objekt. */
 }
 
 nav ul {
