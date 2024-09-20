@@ -7,6 +7,8 @@
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
     margin: 0;
+    margin-top: 100px;
+    padding: 0;
 }
 
 /* Hier werden 2 Elemente nebeneinander gepackt.
@@ -29,4 +31,57 @@ body {
 .text-and-img img {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
+
+/* Während hmtl den Inhalt der Seite bestimmt, bestimmt ccs wie die Seite aussieht. */
+
+main,
+header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0; /* Ein margin kreiert Abstände ohne Grenzen um ein Objekt. Der margin kann auf jeder Seite unabhängig spezifiziert werden. */
+    padding: 0; /* Padding kreiert einen gewissen Abstand um ein Objekt. */
+}
+
+nav ul {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+}
+
+nav ul li,
+nav ul li a {
+    list-style: none;
+    background-color: lightskyblue; /* Farbe hinter dem Objekt */
+    padding: 1rem; /* Abstand der Hintergrundfarbe vom Objekt */
+    cursor: pointer; /* damit der cursor zeigt, das man mit dem Element interagieren kann und zum Pointer wird. */
+}
+
+nav ul li a {
+    color: white; /* Farbe des Textes */
+    text-decoration: underline; /* der Text wird dekoriert (unterstrichen)  */
+    transition: all 0.4s ease-in-out; /* Länge des Überganges zwischen dem default Aussehen des Objekts und dem anderen (Hier flex if cursor hovers) */
+}
+
+nav ul li a:hover {
+    letter-spacing: 0.5pt; /* Wenn der cursor hovert, verändert sich der Zustand des Objektes (in diesem Fall verändert sich das spacing) */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Abstand zwischen Elementen in einer reihe */
 }
