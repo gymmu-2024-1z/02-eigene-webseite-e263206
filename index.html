@@ -17,44 +17,45 @@
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
             <h1>Webseite von Marlon Ernst</h1>
+
+            <svg height="300" width="300" version="1.1">
+                <path
+                    id="circle-motion"
+                    d="M 50 150 L 250 150 Z"
+                    stroke="transparent"
+                />
+                <circle
+                    r="50"
+                    fill="transparent"
+                    stroke="lightblue"
+                    stroke-width="5"
+                >
+                    <animateMotion dur="5s" repeatCount="indefinite">
+                        <mpath xlink:href="#circle-motion" />
+                    </animateMotion>
+                </circle>
+                <circle r="40" fill="lightblue">
+                    <animateMotion dur="5s" repeatCount="indefinite">
+                        <mpath xlink:href="#circle-motion" />
+                    </animateMotion>
+                </circle>
+                <circle r="30" fill="lightpink">
+                    <animateMotion dur="7s" repeatCount="indefinite">
+                        <mpath xlink:href="#circle-motion" />
+                    </animateMotion>
+                </circle>
+                <circle
+                    r="40"
+                    fill="transparent"
+                    stroke="lightpink"
+                    stroke-width="5"
+                >
+                    <animateMotion dur="7s" repeatCount="indefinite">
+                        <mpath xlink:href="#circle-motion" />
+                    </animateMotion>
+                </circle>
+            </svg>
         </header>
-        <svg height="300" width="300" version="1.1">
-            <path
-                id="circle-motion"
-                d="M 50 150 L 250 150 Z"
-                stroke="transparent"
-            />
-            <circle
-                r="50"
-                fill="transparent"
-                stroke="lightblue"
-                stroke-width="5"
-            >
-                <animateMotion dur="5s" repeatCount="indefinite">
-                    <mpath xlink:href="#circle-motion" />
-                </animateMotion>
-            </circle>
-            <circle r="40" fill="lightblue">
-                <animateMotion dur="5s" repeatCount="indefinite">
-                    <mpath xlink:href="#circle-motion" />
-                </animateMotion>
-            </circle>
-            <circle r="30" fill="lightpink">
-                <animateMotion dur="7s" repeatCount="indefinite">
-                    <mpath xlink:href="#circle-motion" />
-                </animateMotion>
-            </circle>
-            <circle
-                r="40"
-                fill="transparent"
-                stroke="lightpink"
-                stroke-width="5"
-            >
-                <animateMotion dur="7s" repeatCount="indefinite">
-                    <mpath xlink:href="#circle-motion" />
-                </animateMotion>
-            </circle>
-        </svg>
 
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
