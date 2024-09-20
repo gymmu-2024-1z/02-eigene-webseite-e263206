@@ -75,7 +75,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    letter-spacing: 0.5pt;
+    letter-spacing: 0.5pt; /* Wenn der cursor hovert, verändert sich der Zustand des Objektes (in diesem Fall verändert sich das spacing) */
 }
 
 header {
