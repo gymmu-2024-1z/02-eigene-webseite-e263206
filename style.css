@@ -30,3 +30,37 @@ body {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
 }
+
+main,
+nav,
+header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav ul {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li,
+nav ul li a {
+    list-style: none;
+    background-color: lightskyblue;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline;
+    transition: all 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+    letter-spacing: 0.5pt;
+}
