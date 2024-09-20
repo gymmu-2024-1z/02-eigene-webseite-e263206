@@ -63,8 +63,8 @@ nav ul {
 nav ul li,
 nav ul li a {
     list-style: none;
-    background-color: lightskyblue;
-    padding: 1rem;
+    background-color: lightskyblue; /* Farbe hinter dem Objekt */
+    padding: 1rem; /* Abstand der Hintergrundfarbe vom Objekt */
     cursor: pointer; /* damit der cursor zeigt, das man mit dem Element interagieren kann und zum Pointer wird. */
 }
 
