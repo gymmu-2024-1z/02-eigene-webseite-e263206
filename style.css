@@ -33,6 +33,8 @@ body {
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
 }
 
+/* Während hmtl den Inhalt der Seite bestimmt, bestimmt ccs wie die Seite aussieht. */
+
 main,
 header {
     max-width: 800px;
