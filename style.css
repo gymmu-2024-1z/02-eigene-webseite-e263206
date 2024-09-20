@@ -83,5 +83,5 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2rem; /* Abstand zwischen Elementen in einer reihe */
 }
